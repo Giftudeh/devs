@@ -1,0 +1,112 @@
+
+body{
+
+/* Phone screen */
+@media only screen and (max-width:520px) 
+{background-color: white;
+    nav {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+width: 0px;
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+}
+    
+}
+/* tablet  screen*/
+@media only screen and (min-width: 600px) and (max-width: 1023) 
+{background-color:white;
+   
+    }
+
+
+  /* Laptop sreen */
+@media  only screen and (min-width: 1024px) 
+{background-color: white;
+
+}
+
+    
+
+.nav-container{
+    padding: 12px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    align-items: center; 
+}
+.links a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 30px 20px;
+    
+}
+.nav-container button{
+    background-color: blue;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+.nav-container button a{
+    text-decoration: none;
+    color:white;
+}
+.img_dashboard{
+    float: right;
+    width: 50%;
+}
+.content{
+    position: absolute;
+    left: 10%;
+    margin: 10px;
+    
+   
+}
+
+
+.content button{
+    background-color: blue;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+
+.content  button a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+
+    
+    
+     
+
