@@ -1,48 +1,17 @@
-
-body{
-
-/* Phone screen */
-@media only screen and (max-width:520px) 
-{background-color: white;
-    nav {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-    }
-
-width: 0px;
-nav{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-}
-    
-}
-/* tablet  screen*/
-@media only screen and (min-width: 600px) and (max-width: 1023) 
-{background-color:white;
-   
-    }
-
-
-  /* Laptop sreen */
-@media  only screen and (min-width: 1024px) 
-{background-color: white;
-
-}
-
-    
-
-.nav-container{
+/* mobile style */
+@media only screen and(max-width:600px){}
+.container{
+    width: 100px;
     padding: 12px 120px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 .links{
     display: flex;
     align-items: center; 
+    text-decoration: none;
+    
 }
 .links a{
     margin-right: 20px;
@@ -52,26 +21,41 @@ nav{
     padding: 30px 20px;
     
 }
-.nav-container button{
+.container button{
     background-color: blue;
     border: none;
     padding: 12px 25px;
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+    
 }
-.nav-container button a{
+.container button a{
     text-decoration: none;
     color:white;
 }
-.img_dashboard{
-    float: right;
-    width: 50%;
+.contain img{
+float: right;
+    width: 500px;
+    height: 100%;
+    margin-left: 500px;
+    padding-right: 100px;
+    
+    
+
+    
 }
 .content{
     position: absolute;
     left: 10%;
     margin: 10px;
+    margin-right: 30px;
+    font-size: x-large;
+      
+}
+.contain{
+    float: right;
     
-   
+    
 }
 
 
@@ -80,6 +64,8 @@ nav{
     border: none;
     padding: 12px 25px;
     border-radius: 10px;
+    margin: 40px;
+    font-weight: bold;
 }
 
 .content  button a{
